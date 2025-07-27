@@ -5,4 +5,7 @@ export const Header = styled.header`
   color: ${(props) => props.theme.corPrincipal};
   text-align: center;
   padding: 24px 0;
+  @media (max-width: 1024px) {
+    max-width: 80%;
+  }
 `

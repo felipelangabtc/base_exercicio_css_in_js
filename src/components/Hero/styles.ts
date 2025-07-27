@@ -19,14 +19,22 @@ export const Form = styled.form`
     content: '';
     opacity: 0.7;
   }
+
+  @media (max-width: 1024px) {
+    max-width: 80%;
+  }
 `
 
 export const FormContainer = styled.div`
   position: relative;
   color: ${(props) => props.theme.corDoTexto};
+  width: 100%;
+  display: flex;
+  justify-content: center;
 `
 
 export const Title = styled.h2`
   font-family: Gloock, serif;
   font-size: 48px;
+  text-align: center;
 `

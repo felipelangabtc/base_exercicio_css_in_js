@@ -9,6 +9,9 @@ export const Forms = styled.form.attrs(() => ({}))<
   padding: 32px;
   border-radius: 12px;
   margin-top: 40px;
+  @media (max-width: 1024px) {
+    max-width: 80%;
+  }
 `
 
 export const Buttons = styled.button.attrs(() => ({}))<
