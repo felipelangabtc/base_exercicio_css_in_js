@@ -9,6 +9,7 @@ export const CardList = styled.ul`
   }
 
   @media (max-width: 768px) {
+
   .vagas {
     grid-template-columns: 1fr;
   }
