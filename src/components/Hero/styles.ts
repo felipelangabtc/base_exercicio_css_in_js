@@ -33,4 +33,8 @@ export const Title = styled.h2`
   font-family: Gloock, serif;
   font-size: 48px;
   text-align: center;
+
+  @media (max-width: 1024px) {
+    max-width: 80%;
+  }
 `
