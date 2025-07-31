@@ -9,7 +9,6 @@ export const CardList = styled.ul`
   }
 
   @media (max-width: 768px) {
-
-    grid-template-columns: 1fr auto;
+    grid-template-columns: 1fr;
   }
 `
